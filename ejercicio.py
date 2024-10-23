@@ -7,6 +7,8 @@ data = {
 }
 
 df = pd.DataFrame(data)
+print(f"Describe:{df.describe()}")
+
 
 #Medidas de Tendencia Central
 #Calcular la media
